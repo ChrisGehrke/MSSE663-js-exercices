@@ -6,3 +6,18 @@
  * #5 Convert the object literal to an Class
  * #6 Then call its method and output to the console.
  */
+
+ var monkey = {
+     name: "jojo", age: 5, language: "signs"
+    monkeyDetails : function () {
+        return this.name + " " + this.age + " " + this.language;
+    }
+ };
+
+ console.log (monkeyDetails);
+
+
+ class monkey {
+     console.log(monkeyDetails);
+ }
+
